@@ -1,0 +1,17 @@
+<?php
+
+$corps =<<<EOT
+<form action="index.php?action=sauvegarde" method="post">
+    <input type="hidden" name="type" value="confirmdelete"/>
+    <input type="hidden" name="idMenu" value="$idMenu"/>
+    <input type="hidden" name="sql" value="$sql"/>
+    <p>Etes vous sûr de vouloir supprimer ce menu ?</p>
+    <p>
+        <input type="submit" value="Enregistrer" class="btn btn-danger">
+        <a href="index.php" class="btn btn-secondary">Annuler</a>
+    </p>
+</form>
+
+EOT;
+$zonePrincipale=$corps ;
+?>

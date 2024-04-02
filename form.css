@@ -1,0 +1,96 @@
+span.c1{
+    display:inline-block;
+    width:150px;
+}
+  
+label{
+    display: inline-block;
+    width: 90px;
+}
+  
+body { 
+    margin-left: 150px;
+    margin-right: 100px;
+    font-family: arial, helvetica;
+    font-size: 9pt;
+    background-color : #156440;
+}
+  
+h1 { 
+    text-align: center;
+    text-decoration:underline;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #1d923c;
+}
+ 
+h2{
+    text-align:center;
+}
+  
+.en_valeur { 
+    text-align: center;
+    color: red;
+    text-decoration: none;
+   background-color: #FFFF77;
+}
+  
+a:hover { 
+    color: red;
+    text-decoration: underline;
+}
+ 
+a{
+    color:black;
+    text-decoration: underline;
+}
+  
+input { 
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-family: arial, helvetica;
+    font-size: 8pt;
+    padding: 2px;
+    background-color: #61f372;
+}
+  
+textarea { 
+    border: 1px solid black;
+    font-family: arial, helvetica;
+    font-size: 8pt;
+    padding: 2px;
+    background-color: #FFFF77;
+}
+  
+select {  
+    font-family: arial, helvetica;
+    font-size: 8pt;
+    padding: 2px;
+    background-color: #FFFF77;
+}
+  
+table { 
+    background-color: #1d923c;
+}
+ 
+td { 
+    border: 1px solid black;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10pt;
+    padding: 5px;
+    
+}
+  
+td.titre { 
+    font-weight: bold;
+}
+  
+.tdM { 
+    width: 75%;
+}
+  
+.tabM { 
+    width: 100%;
+}

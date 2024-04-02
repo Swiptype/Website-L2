@@ -1,0 +1,31 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="index.php?action={$cible}&idMenu={$idMenu}" name="form_user" >
+  <label>Entrée</label>
+  <input type="text" name="ENTREE" size="" value="{$ENTREE}">
+  <span class="w3-text-red">{$erreur["ENTREE"]}</span><br>
+    
+  <label>Plat</label>
+  <input type="text" name="PLAT" size="" value="{$PLAT}">
+  <span class="w3-text-red">{$erreur["PLAT"]}</span><br>
+
+  <label>Dessert</label>
+  <input type="text" name="DESSERT" size="" value="{$DESSERT}">
+  <span class="w3-text-red">{$erreur["DESSERT"]}</span><br>
+
+  <label>Boisson</label>
+  <input type="text" name="BOISSON" size="" value="{$BOISSON}">
+  <span class="w3-text-red">{$erreur["BOISSON"]}</span><br>
+
+  <label>Nom du menu</label>
+  <input type="text" name="NOM_DU_MENU" size="" value="{$NOM_DU_MENU}">
+  <span class="w3-text-red">{$erreur["NOM_DU_MENU"]}</span><br>
+      
+  <input type="submit" name="user_valider" value="Valider" size="" >
+      
+</form>
+
+EOT;
+$zonePrincipale=$corps;
+?>
